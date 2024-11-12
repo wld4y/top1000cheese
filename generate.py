@@ -9,7 +9,7 @@ from transitions import add_transitions
 from settings import *
 
 # folder checks
-if os.path.existss('music') == False: os.mkdir('music')
+if os.path.exists('music') == False: os.mkdir('music')
 if os.listdir('music') == []: os.mkdir('music'); print('you do not have any music in the music folder! add mp3s to start.'); exit()
 
 if os.path.exists('images') == False: os.mkdir('images')
